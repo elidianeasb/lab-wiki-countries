@@ -8,8 +8,8 @@ function CountriesList(props) {
 
     return (
         <div>
-            <div className="col-5" >
-                <div className="list-group">
+            <div className="col-5" style={{height: '90vh', overflow: 'scroll'}}>
+                <div className="list-group" >
                     {
                         countries.map(country => (
                             <Link

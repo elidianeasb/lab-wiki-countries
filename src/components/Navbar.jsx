@@ -6,7 +6,7 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-dark bg-primary mb-3">
                 <div className="container">
-                    <a className="navbar-brand" href="/">WikiCountries</a>
+                    <h1 className="navbar-brand">LAB - WikiCountries</h1>
                 </div>
             </nav>
         </div>
